@@ -1,0 +1,9 @@
+Roz kisi bhi dataset pe yeh 7 questions likho:
+
+One row kya represent karta hai?
+Isme kya wrong ho sakta hai?
+Yeh data kis business process se aaya?
+Total ke niche kaunsa segment hidden hai?
+Yeh jo dikh raha hai woh misleading kaise ho sakta hai?
+Real business problem kya hai?
+Business ko ab kya karna chahiye?

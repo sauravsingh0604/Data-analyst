@@ -1,0 +1,17 @@
+| Error                      | Meaning                               | Example                         |
+| -------------------------- | ------------------------------------- | ------------------------------- |
+| `#N/A`                     | Value not found                       | `VLOOKUP` value not found       |
+| `#VALUE!`                  | Wrong data type                       | `"ABC"+10`                      |
+| `#NUM!`                    | Invalid numeric calculation           | `=SQRT(-5)`                     |
+| `#DIV/0!`                  | Number divided by 0                   | `=10/0`                         |
+| `#NAME?`                   | Wrong formula or range name           | `=SUMM(A1:A5)`                  |
+| `#REF!`                    | Invalid cell reference                | Deleted referenced cell         |
+| `#NULL!`                   | Wrong range intersection              | `=SUM(A1:A5 C1:C5)`             |
+| `#SPILL!`                  | Dynamic array cannot spill            | Blocked cells in spill range    |
+| `#CALC!`                   | Calculation problem in array formulas | Invalid dynamic array operation |
+| `#FIELD!`                  | Field name not found                  | Wrong field in linked data type |
+| `#BLOCKED!`                | Formula/data connection blocked       | External data blocked           |
+| `#CONNECT!`                | Cannot connect to external source     | Data connection failed          |
+| `#GETTING_DATA`            | Excel is fetching data                | Temporary loading state         |
+| `#####`                    | Column width too small                | Increase column width           |
+| Circular Reference Warning | Formula refers to itself              | `=A1+1` written in A1           |
